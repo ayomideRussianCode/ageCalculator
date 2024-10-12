@@ -92,3 +92,43 @@ small {
     margin-bottom: 20px;
 
 }
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px; 
+    }
+
+    .submit-btn {
+        right: 20px; 
+        top: 50px; 
+    }
+
+    .output span {
+        font-size: 32px; 
+    }
+
+    small {
+        font-size: 0.5rem;
+    }
+
+    input {
+        padding: 8px; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .submit-btn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .output span {
+        font-size: 28px; 
+    }
+}
+
